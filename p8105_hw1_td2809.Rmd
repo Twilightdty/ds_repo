@@ -2,7 +2,7 @@
 title: "p8105_hw1_td2809"
 author: "Chris Deng"
 date: "2023-09-20"
-output: html_document
+output: github_document
 ---
 
 ```{r}
