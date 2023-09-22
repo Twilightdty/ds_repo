@@ -17,7 +17,8 @@ The names of the variable are `r names(early_january_weather)`
 
 ```{r}
 library(tidyverse)
-ggplot(data=early_january_weather, aes(x=time_hour,y=temp,color=humid))+geom_point()
+p=ggplot(data=early_january_weather, aes(x=time_hour,y=temp,color=humid))+geom_point()
+p
 ```
 The horizontal axis represents time, the vertical axis represents temperature, the color depth of the dots represents humidity, and the lighter the color, the higher the humidity.
 
